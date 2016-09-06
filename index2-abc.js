@@ -9,7 +9,6 @@ var soap = require('soap');
 var fs = require('fs');
 var request = require('request');
 var httpntlm = require('httpntlm');
-//TODO  Authorization:Basic YWFhYTphYWFh             (aaaa:aaaa)
 var config = require('./abc-auth.js')
 var req = require('./lib/b2bClientABC.js');
 var program = require('commander');
